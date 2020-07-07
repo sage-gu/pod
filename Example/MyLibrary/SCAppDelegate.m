@@ -7,12 +7,16 @@
 //
 
 #import "SCAppDelegate.h"
+#import "ASIIM.h"
+//#import <MyLibrary/ASIIM.h>
 
 @implementation SCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[[ASIIM alloc] init] egypt];
     return YES;
 }
 
